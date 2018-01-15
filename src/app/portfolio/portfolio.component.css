@@ -1,0 +1,30 @@
+.jumbotron{
+  background: none;
+  margin: 75px auto;
+}
+mat-card {
+  border-radius: 5px;
+  margin-bottom: 7px;
+}
+.portfolio-item {
+    margin: 1px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    width: 401px;
+    background-color: #000000;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 245px;
+}
+.portfolio-title {
+font-size: 2.5em;
+margin-bottom: 20px;
+}
+#portfolio {
+margin-left: 70px;
+}

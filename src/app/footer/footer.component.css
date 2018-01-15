@@ -1,0 +1,19 @@
+.site-footer span{
+  text-align: center;
+}
+.site-footer {
+  margin-top: 50px;
+  margin-bottom: 3rem;
+}
+i.fa.fa-github {
+  margin-left: 15px;
+  margin-top:5px;
+  font-size: 3.5em;
+  vertical-align: middle;
+}
+a.glyphicon.glyphicon-envelope {
+  margin-left: 10px;
+  margin-top:5px;
+  font-size: 2.5em;
+  top: 0.5em;
+}
