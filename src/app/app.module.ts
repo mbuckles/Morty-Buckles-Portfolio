@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MasonryModule } from 'angular2-masonry';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { FormsModule } from '@angular/forms';//added
+import { FormsModule } from '@angular/forms';
 import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';

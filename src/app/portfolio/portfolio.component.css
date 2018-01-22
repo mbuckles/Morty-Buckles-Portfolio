@@ -28,3 +28,10 @@ margin-bottom: 20px;
 #portfolio {
 margin-left: 70px;
 }
+h1 {
+  font-size: 63px;
+  margin-bottom: 40px;
+}
+p.lead{
+  text-align: left
+}
