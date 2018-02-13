@@ -34,6 +34,33 @@ a {
   top: 0.5em;
   text-decoration: none;
 }
-div.services-contact {
-  margin-top: 50px;
+.title {
+  height: 40px;
+  margin: 40px auto 65px auto;
+  display: flex;
 }
+.title1 {
+  font-size: 50px;
+  margin: auto;
+}
+
+.title2 {
+  height: 40px;
+  margin: 40px auto 20px auto;
+}
+.title3 {
+  font-size: 2.0em;
+}
+.request {
+  height: 40px;
+  margin: 20px auto 60px auto;
+  display: flex;
+}
+.services-contact {
+  margin: 20px auto 40px auto;
+
+}
+a {
+  text-decoration: none;
+  font-size: 2.5em;
+  }

@@ -1,37 +1,50 @@
-.jumbotron{
-  background: none;
-  margin: 75px auto;
+.title {
+  height: 40px;
+  margin: 40px auto 65px auto;
+  display: flex;
+}
+.title1 {
+  font-size: 50px;
+  margin: auto;
 }
 mat-card {
   border-radius: 5px;
   margin-bottom: 7px;
 }
-.portfolio-item {
-    margin: 1px;
-    text-align: center;
-    font-size: 1.5em;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 300px;
-    width: 401px;
-    background-color: #000000;
+p {
+  margin: 0 0 10px;
+  font-size: 1.7em;
+}
+.main{
+  margin-top: 20px;
+}
+.fixed-size-container {
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  background-color: #FFF;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fixed-size {
+  padding: 5px;
+  background: black;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  flex-basis: 32.5%;
+  text-align: center;
+  border-radius: 5px;
+  height: 295px;
 }
 .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: 245px;
+  display: block;
+  width: 100%;
+  height: 245px;
 }
-.portfolio-title {
-font-size: 2.5em;
-margin-bottom: 20px;
-}
-#portfolio {
-margin-left: 70px;
-}
-h1 {
-  font-size: 63px;
-  margin-bottom: 40px;
-}
-p.lead{
-  text-align: left
+a {
+color: #f0f0f0;
+text-decoration: none;
+font-size: 1.5em;
 }

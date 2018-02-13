@@ -8,6 +8,7 @@ import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
@@ -21,6 +22,7 @@ import { appRoutes } from '../routes';
     HomeComponent,
     AboutComponent,
     PortfolioComponent,
+    NavbarComponent,
     ContactComponent,
     ServicesComponent,
     FooterComponent
