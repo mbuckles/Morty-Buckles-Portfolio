@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MasonryModule } from 'angular2-masonry';
+// import { MasonryModule } from 'angular2-masonry';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { MaterialModule } from './material.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -15,6 +16,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { appRoutes } from '../routes';
+import { environment } from '../environments/environment';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -28,12 +31,16 @@ import { appRoutes } from '../routes';
     FooterComponent
   ],
   imports: [
-    BrowserModule,
-    RouterModule.forRoot(appRoutes),
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    // Rou/terModule.forRoot(appRoutes),
     BrowserAnimationsModule,
     FormsModule,
     MaterialModule,
-    MasonryModule
+    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : [],
+    AppRoutingModule,
+    RouterModule,
+    // MasonryModule,
+    // AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

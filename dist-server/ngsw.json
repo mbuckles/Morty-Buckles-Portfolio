@@ -1,0 +1,137 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/main.d345e61ecf4f9f098b32.bundle.js",
+        "/polyfills.713242ac4e830ff978cb.bundle.js",
+        "/styles.4495d26326d912c6e325.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/android-chrome-512x512.png",
+        "/assets/icons/giphy.gif",
+        "/assets/icons/logo.svg",
+        "/assets/icons/PWA.png",
+        "/assets/img/1937.jpg",
+        "/assets/img/1965.jpg",
+        "/assets/img/angular-logo.png",
+        "/assets/img/Chatbot.png",
+        "/assets/img/ImageSearch.png",
+        "/assets/img/Inventory.png",
+        "/assets/img/main.jpg",
+        "/assets/img/MB Bar Chart.png",
+        "/assets/img/MB Book Trading App.png",
+        "/assets/img/MB Calculator.png",
+        "/assets/img/MB Cycling.png",
+        "/assets/img/MB Dungeon Crawler.png",
+        "/assets/img/MB Game of Life.png",
+        "/assets/img/MB Leaderboard.png",
+        "/assets/img/MB Markdown.png",
+        "/assets/img/MB Meteor.png",
+        "/assets/img/MB Pomodoro.png",
+        "/assets/img/MB Recipe Box.png",
+        "/assets/img/MB Simon.png",
+        "/assets/img/MB Stock Tracker.png",
+        "/assets/img/MB Surface Temps.png",
+        "/assets/img/MB Twitch TV.png",
+        "/assets/img/MB Wiki.png",
+        "/assets/img/MBForce Graph.png",
+        "/assets/img/mnbracing.jpg",
+        "/assets/img/NG Gallery.png",
+        "/assets/img/Nightlife App.png",
+        "/assets/img/Pinterest Clone.png",
+        "/assets/img/Random Quote.png",
+        "/assets/img/run-journal.jpg",
+        "/assets/img/RunJournal.png",
+        "/assets/img/TicTacToe.png",
+        "/assets/img/VotingApp.png",
+        "/assets/img/Weather App.png",
+        "/assets/img/Yelp Clone.png"
+      ],
+      "patterns": [
+        "http:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Roboto\\+Slab"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "task-users-api",
+      "patterns": [
+        "\\/tasks",
+        "\\/users"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    },
+    {
+      "name": "api-performance",
+      "patterns": [
+        "\\/quote-box"
+      ],
+      "strategy": "performance",
+      "maxSize": 20,
+      "maxAge": 14400000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/main.d345e61ecf4f9f098b32.bundle.js": "1d06d3c2679f83dd8d5f6b74eb72813a6c86a028",
+    "/assets/icons/android-chrome-512x512.png": "b7a5b040a49ebf8a8e175bc2d43c78dafed5f046",
+    "/polyfills.713242ac4e830ff978cb.bundle.js": "5578f4ef85a58e625132b7ee5bd86ae6c21424c8",
+    "/assets/icons/giphy.gif": "8947a7e8900a4e4359ded13199f4f05ee0e55e84",
+    "/styles.4495d26326d912c6e325.bundle.css": "136fed966d674608297bdb070f4a18223d00d42e",
+    "/assets/icons/logo.svg": "7aae975a2fe9f2b9482f07e85fc931707a759f3c",
+    "/favicon.ico": "b9dc6ed92a8f1164daaea075f0e082ef9ce6711e",
+    "/assets/icons/PWA.png": "a7bb079ec1752e3d4870d41f148906c6dcd36227",
+    "/assets/img/1937.jpg": "4a01046092554faa2c1d198a2c5ed505e944998b",
+    "/assets/img/1965.jpg": "81398a2fbc560c0f67d2d634c7539328f0575d54",
+    "/assets/img/angular-logo.png": "f0191f8d50460c560d9e28b29e849b4f44ed0bf4",
+    "/assets/img/Chatbot.png": "cde79b6fb03d16dd0a7839718b0854a2ba464293",
+    "/assets/img/ImageSearch.png": "ae7ef4cd339bf4dd7520e9663cdc3b8d1a1c2d48",
+    "/assets/img/Inventory.png": "60d663a051daa9288d5a2c6e83d6aa5318e030f6",
+    "/assets/img/main.jpg": "0f7fb8fe82a8ed51e8b675ce2cb475b08b9459d2",
+    "/assets/img/MB Bar Chart.png": "c8830ae9a539b77f7626dfce1be3734b5c87562c",
+    "/assets/img/MB Book Trading App.png": "610b1c922e98206a58ba38a17ee4398d51a2a6ed",
+    "/assets/img/MB Calculator.png": "e85223efd64872ecdf8811f2d43950a2bc8183ff",
+    "/assets/img/MB Cycling.png": "1487040415ddb06d9c33f32eb9c0500d8e70e305",
+    "/assets/img/MB Dungeon Crawler.png": "a49f01b091bcecfb4bb14f2b0bb9fcd2d3a36385",
+    "/assets/img/MB Game of Life.png": "2800f11060942a22f407bb7628bef45a5ab41b83",
+    "/assets/img/MB Leaderboard.png": "6e559ec69eeadb31320c13f25c5542474795b999",
+    "/assets/img/MB Markdown.png": "b903ed3ed941c94663373570ba89a4e904f8224a",
+    "/assets/img/MB Meteor.png": "d0e077b967d102426e838d47f9ad5d014124e829",
+    "/assets/img/MB Pomodoro.png": "3d35a2f2eb9de555e0ca32a5887d29a883863e54",
+    "/assets/img/MB Recipe Box.png": "566cecd50f8e0c4b2e241bce22bad207b70d371f",
+    "/assets/img/MB Simon.png": "16d6856834ed7e96bc6405dee719dbc4e55f1713",
+    "/assets/img/MB Stock Tracker.png": "8f99660c93a9f3a46dcc289210f1b2c1a1c32217",
+    "/assets/img/MB Surface Temps.png": "10ce683701020473930c7c69ee3be5f7623dcd39",
+    "/assets/img/MB Twitch TV.png": "004ca7980e3801da9f34a556cb3914272904bff2",
+    "/assets/img/MB Wiki.png": "43bbff1ac9c5a56f8fe5f31620159480ec01397d",
+    "/assets/img/MBForce Graph.png": "fec5157a3c3d5d86ddbde5a289a1e7a4fe90a567",
+    "/assets/img/mnbracing.jpg": "b06c7fa0604ea4c34122f4ed5998c242206d2447",
+    "/assets/img/NG Gallery.png": "4895811e1f079b3d8a4a8cbbe552a888446f2c3a",
+    "/assets/img/Nightlife App.png": "8ea795b3ca2de0ea4fda6df09cc2bde8c1b85cfd",
+    "/assets/img/Pinterest Clone.png": "a849d9ffdbb14b9a4b0e07646ae431dc88ea0734",
+    "/assets/img/Random Quote.png": "0777cae2a001e6a7b66b0a8ccbb5a947ecf8f0ee",
+    "/assets/img/run-journal.jpg": "b2265d5dcff79f8efc741729e4f366fbe57415b7",
+    "/assets/img/RunJournal.png": "1709413413cf6eea2164098d56aaf9bb8ddb4d3d",
+    "/assets/img/TicTacToe.png": "5cef3eddab58deeed572a01a789092a429eab66a",
+    "/assets/img/VotingApp.png": "ac171659339e5abcbbf033c8b675152379a41b9e",
+    "/assets/img/Weather App.png": "74770111c7ce3db3107ac410baa6338ab2d8d8a4",
+    "/assets/img/Yelp Clone.png": "4f6560f861349424b1fd5687c6d685b8a7f66ba7"
+  }
+}
