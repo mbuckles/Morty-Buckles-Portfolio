@@ -5,11 +5,12 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build",
+    "build": "ng build --prod",
+    "builddev": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --target=production"
+    "deploy": "firebase deploy --non-iteractive --token $FIREBASE_DEPLOY_KEY"
   },
   "private": true,
   "dependencies": {
