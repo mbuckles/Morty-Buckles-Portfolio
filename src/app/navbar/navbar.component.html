@@ -1,5 +1,6 @@
 <div class="body">
   <div class="container">
+
     <div class="navbar">
       <button mat-button [matMenuTriggerFor]="menu">Menu</button>
       <mat-menu #menu="matMenu">
@@ -10,11 +11,14 @@
         <button mat-menu-item><a routerLink="/about" routerLinkActive="active">About</a></button>
       </mat-menu>
     </div>
+
     <div class="navbar">
       <p>Morty Buckles Portfolio</p>
     </div>
+
     <div class="powered-by">
       <a href="https://angular.io/" target="blank" alt="Angular5 PWA logo" rel="noopener"><img src="./assets/img/angular-logo.png" alt="Angular" rel="noopener"> Powered by Angular</a>
     </div>
+
   </div>
 </div>
