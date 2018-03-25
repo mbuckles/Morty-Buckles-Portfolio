@@ -20,7 +20,12 @@
     "updateMode": "prefetch",
     "resources": {
       "files": [
-        "/assets/**"
+        "/assets/rsz_banking-min.png",
+        "/assets/rsz_chatbot-min.png",
+        "/assets/rsz_inventory-min.png",
+        "/assets/rsz_random_quote-min.png",
+        "/assets/rsz_runjournal-min.png",
+        "/assets/rsz_weather_app-min.png"
       ],
       "urls": [
         "http://fonts.googleapis.com/**",
