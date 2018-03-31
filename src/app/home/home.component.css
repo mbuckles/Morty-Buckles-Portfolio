@@ -59,6 +59,7 @@ p {
 }
 h1 {
   margin-right: 30px;
+  font-family: 'Roboto Slab', serif;
 }
 .fixed-size-container {
   max-width: 1400px;

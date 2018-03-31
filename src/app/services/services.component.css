@@ -64,3 +64,9 @@ a {
   text-decoration: none;
   font-size: 2.5em;
   }
+.container {
+  max-width: 80%;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+  flex-direction: column;
+}

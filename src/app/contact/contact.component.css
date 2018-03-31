@@ -30,5 +30,9 @@ p {
   font-size: 1.75em;
 }
 .container {
-  margin-bottom: 40px;
+  max-width: 80%;
+  margin: auto;
+  font-family: 'Roboto Slab', serif;
+  flex-direction: column;
 }
+

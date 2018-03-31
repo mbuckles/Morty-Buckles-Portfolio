@@ -6,17 +6,19 @@
 .title1 {
   font-size: 50px;
   margin: auto;
+  font-family: 'Roboto Slab', serif;
 }
 mat-card {
   border-radius: 5px;
   margin-bottom: 7px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 15px auto;
   font-size: 1.7em;
 }
 .main{
-  margin-top: 20px;
+  margin: 20px auto;
+  max-width: 80%;
 }
 .fixed-size-container {
   max-width: 1400px;
